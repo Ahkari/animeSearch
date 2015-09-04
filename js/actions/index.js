@@ -1,11 +1,7 @@
-define(function(require,exports,module){
-
-
-
 $(function(){
 
-//功能一:点击报错,弹窗	事件委托机制
-$(document).on('click','a.search_errorReport',function(event){
+//功能一:点击报错,弹窗	
+$('a.search_errorReport').on('click',function(event){
 	//预留给资源标识的值
 	var sourseId = $(event.target).data('sourseid') ;
 	// sourseId = 
@@ -82,7 +78,7 @@ $('a.signIn').on('click',function(event){
 
 
 //功能五: 网盘下载
-$(document).on('click','a.search_download',function(event){
+$('a.search_download').on('click',function(event){
 	//预留给资源标识的值
 	var sourseId = $(event.target).data('sourseid') ;
 	// sourseId = 
@@ -104,31 +100,15 @@ $(document).on('click','a.search_download',function(event){
 
 //功能六: 点击台词切换
 $('a.lv2.tanci').on('click',function(event){
-	//ajax获取到数据
-	var data ;
-	var taiciTmpl = require('text!{tpls}/taici.htm') ;
-	$('#changeArea').html( taiciTmpl ) ;
+
 
 });
 
 //功能七: 点击切换生肉部分
 $('a.lv0.shengrou').on('click',function(event){
-	//ajax获取到数据
-	var data ;
-	var taiciTmpl = require('text!{tpls}/shurou.htm') ;
-	$('#changeArea').html( taiciTmpl ) ;
-
-});
 
 
 });
 
 
-//功能八: 选项卡切换
-$('.search_tabs>li>a').on('click',function(event){
-	$(this).parent().parent().find('a').removeClass('active') ;
-	$(this).addClass('active') ;
 })
-
-
-});

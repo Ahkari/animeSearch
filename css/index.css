@@ -140,7 +140,7 @@ a.signIn{
 .lv4{
 	background-color: #9092e4;
 }
-.lv0.active,.lv1.activ,.lv2.activ,.lv3.active{
+.lv0.active,.lv1.active,.lv2.active,.lv3.active,.lv4.active{
 	background-color: #ffffff;
 	color: #222222;
 }
@@ -276,4 +276,127 @@ span.coinVal{
 	width: 320px;
 	height: 55px;
 	background: url(../img/icon.png) no-repeat 0px -102px;
+}
+
+
+/*报错弹窗*/
+.errorDialog-title{
+	color: #888888;
+    margin-left: 40px;
+    padding-top: 48px;
+    padding-bottom: 20px;
+}
+.errorDialog-textarea{
+	margin-left: 40px;
+    height: 180px;
+    width: 620px;
+    background-color: #eeeeee;
+    border-color: #dddddd;
+    padding: 10px;
+    font-family: "Microsoft Yahei";
+    color: #555;
+    resize: none;
+}
+.errorDialog-textarea:focus{
+	outline: none;
+}
+.errorDialog-submit{
+	margin-left: 496px;
+    width: 185px;
+    height: 40px;
+    text-align: center;
+    background-color: #ffa415;
+    color: #fff;
+    line-height: 40px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.doubiAddTen{
+	position: absolute;
+    width: 100px;
+    color: #666;
+    left: 50px;
+    top: 0px;
+    opacity: 1 ;
+    transition: all 0.7s ease-in ;
+    -ms-transition: all .7s ease-in ;
+    -moz-transition: all .7s ease-in ;
+    -webkit-transition: all .7s ease-in ;
+}
+.signIn.hadSignIn{
+	background-color: #a6b8c0;
+}
+
+/*提取码弹窗*/
+.tiqimaWrap{
+	height: 35px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	line-height: 35px;
+	color: #888888;
+}
+.tiqumaInput{
+	width: 85px;
+    height: 33px;
+    margin-left: 14px;
+    border: 1px solid #ddd;
+    padding-left: 15px;
+    font-size: 18px;
+    color: #777;
+    letter-spacing: 5px;
+}
+.tiquma-submit{
+	width: 185px;
+    height: 40px;
+    background-color: #ffa415;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    margin: 0px auto;
+    margin-bottom: 35px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.checkboxInTaici{
+  vertical-align: top;
+  position: relative;
+  top: 15px;
+  margin-right: 2px;
+}
+.icon-inside{
+  background-color: #9db1c1;
+  color: #fff;
+  position: relative;
+  top: -1px;
+}
+.taici-title{
+  padding-top: 20px;
+  padding-bottom: 5px;
+  position: relative;
+  top: -4px;
+  width: 770px;
+}
+.taici-title a.resultNameTaici{
+  color: #222;
+}
+.taici-title a.resultNameTaici:hover{
+  color: #649dd7;
+}
+.resultNameTaici{
+  margin-left: 3px;
+}
+.taici-result{
+  height: 25px;
+  line-height: 25px;
+  margin-left: 25px;
+  color: #888;
+}
+.each-taici{
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #d3dce0;
+  width: 770px;
 }

@@ -1,0 +1,95 @@
+@charset "utf-8";
+/*基础样式/样式重置*/
+*{
+	margin: 0;
+	padding: 0;
+}
+html,
+body{
+	color: #222222;
+	background-color: #eaeaea;
+	font: 14px 'Microsoft Yahei',Arial,Verdana,tahoma,Helvetica,sans-serif;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
+a{
+	cursor: pointer;
+	color: #649dd7;
+	text-decoration: none;
+}
+a:hover,
+a:active{
+	color: #649dd7;
+}
+ol,
+ul,
+li{
+	list-style: none;
+}
+input:focus{
+	outline: none;
+}
+
+/*基础元样式*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.tl{
+	text-align: left;
+}
+.tr{
+	text-align: right;
+}
+.dib{
+	display: inline-block;
+}
+.db{
+	display: block;
+}
+.dn{
+	display: none;
+}
+.di{
+	display: inline;
+}
+.pr{
+	position: relative;
+}
+.pa{
+	position: absolute;
+}
+.pf{
+	position: fixed;
+}
+
+/*多元组合*/
+.ell{
+	overflow:hidden;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+}
+.clear{
+	display:block;
+    clear: both;
+}
+.margin-center{
+	margin: 0px auto;
+}
+.w1160{
+	width: 1160px;
+}
+
+/*公共样式*/
+.iconFake{
+	display: inline-block;
+  	height: 18px;
+  	font-style: normal;
+  	padding: 0px 3px 0px 3px;
+  	line-height: 18px;
+  	font-size: 13px;
+}

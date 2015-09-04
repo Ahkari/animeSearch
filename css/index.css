@@ -1,0 +1,402 @@
+@charset "utf-8";
+
+/*头部*/
+.header{
+	height: 42px;
+	margin-top: 65px;
+	margin-bottom: 50px;
+}
+.logo a{
+	display: block;
+  	margin-left: 20px;
+  	width: 155px;
+  	height: 26px;
+  	background: url(../img/icon.png) no-repeat -6px -2px;
+  	text-indent: 100%;
+  	white-space: nowrap;
+  	overflow: hidden;
+  	margin-top: 8px;
+  	margin-right: 20px
+}
+.searchWrap{
+	width: 450px;
+  	height: 100%;
+}
+.search_Input{
+	height: 40px;
+  	border: 1px solid #dddddd;
+  	width: 344px;
+  	padding-left: 10px;
+  	line-height: 30px;
+  	font-size: 16px;
+  	color: #999;
+}
+a.search{
+	display: inline-block;
+  	height: 42px;
+  	background-color: #ffa415;
+  	vertical-align: top;
+  	line-height: 40px;
+  	color: #fff;
+  	width: 82px;
+  	text-align: center;
+  	margin-left: 7px;
+}
+.getResourse{
+	width: 115px;
+  	height: 42px;
+  	margin-left: 30px;
+}
+.getResourse a{
+	line-height: 30px;
+  	margin-right: 9px;
+  	letter-spacing: -1px;
+}
+.user{
+	width: 230px;
+	height: 42px;
+	vertical-align: top;
+	margin-left: 55px;
+}
+.avatar{
+	width: 48px;
+	height: 40px;
+	vertical-align: top;
+}
+.avatar img{
+	width: 100%;
+	height: 100%;
+}
+.user_Info{
+	margin-left: 5px;
+}
+.user_Info span{
+	font-size: 12px;
+	color: #5a6f81;
+	line-height: 27px;
+	margin-right: 3px;
+}
+.user_Info span.level{
+	color: #fff;
+  	background-color: #66bdd6;
+  	padding-left: 5px;
+  	padding-right: 5px;
+}
+a.signIn{
+	width: 60px;
+  	height: 26px;
+  	text-align: center;
+  	line-height: 26px;
+  	background-color: #ffa415;
+  	color: #fff;
+  	position: relative;
+  	top: 14px;
+}
+/*主体*/
+.bodyer{
+	height: 700px;
+}
+.search_Result{
+	width: 790px;
+	height: 700px;
+	background-color: #fff;
+	padding-left: 20px;
+}
+.search_tabs{
+	width: 792px;
+  	height: 25px;
+  	position: relative;
+  	left: -0px;
+}
+.search_tabs li{
+	float: left;
+  	color: #fff;
+  	height: 25px;
+  	line-height: 25px;
+  	width: 87px;
+  	border-left: 1px solid #FFF;
+  	text-align: center;
+  	width: 78px;
+}
+.search_tabs li a{
+	color: #fff;
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size: 12px;
+}
+.lv0{
+	background-color: #a6b8c0;
+}
+.lv1{
+	background-color: #66bdd6;
+}
+.lv2{
+	background-color: #66bdd6;
+}
+.lv3{
+	background-color: #649dd7;
+}
+.lv4{
+	background-color: #9092e4;
+}
+.lv0.active,.lv1.active,.lv2.active,.lv3.active,.lv4.active{
+	background-color: #ffffff;
+	color: #222222;
+}
+.search_tips{
+	height: 44px;
+	width: 770px;
+	line-height: 44px;
+	border-bottom: 1px solid #d3dce0;
+	color: #b3bbbf;
+}
+.search_tips span{
+	color: #ffa415;
+	padding: 0px 4px 0px 4px;
+}
+.icon-recommendation{
+	color: #fff;
+	background-color: #ffa415;
+	position: absolute;
+	top: 16px;
+	cursor: default;
+}
+.list_each{
+	height: 52px;
+	line-height: 52px;
+	width: 770px;
+	border-bottom: 1px dashed #d3dce0;
+}
+.reaultName{
+	display: inline-block;
+  	margin-left: 26px;
+  	width: 640px;
+  	color: #222;
+}
+a.search_download{
+	color: #5a6f81;
+  	background-color: #d6dfe7;
+  	width: 40px;
+  	height: 18px;
+  	border-radius: 7px;
+  	display: inline-block;
+  	line-height: 18px;
+  	text-align: center;
+  	margin-left: 10px;
+}
+.search_Operation{
+
+}
+.paging{
+	position: absolute;
+  	top: 650px;
+  	left: 243px;
+}
+.paging a{
+	color: #222;
+	padding: 0px 5px 0px 5px;
+	margin: 0px 2px 0px 2px;
+}
+.paging a.curPage{
+	background-color: #d6dfe7;
+}
+.paging .prevPage{
+	background-color: #d6dfe7;
+}
+.paging .nextPage{
+	background-color: #d6dfe7;
+}
+
+/*主体右侧求资源*/
+.resourseWrap{
+	width: 295px;
+  	height: 700px;
+  	margin-left: 15px;
+  	background-color: #fff;
+  	padding-left: 20px;
+  	padding-right: 20px;
+}
+.resourse_title{
+	height: 55px;
+	line-height: 55px;
+ 	border-bottom: 1px solid #d3dce0;
+}
+.resourse_title a{
+	float: right;
+  	background: #ffa415;
+  	color: #fff;
+  	height: 25px;
+  	line-height: 25px;
+  	width: 83px;
+  	text-align: center;
+  	margin-top: 15px;
+}
+.QalistEach{
+	height: 55px;
+	border-bottom: 1px dashed #d3dce0;
+	line-height: 55px;
+}
+.QalistEach a{
+	display: inline-block;
+  	width: 230px;
+  	color: #888888
+}
+.QalistEach a:hover,.QalistEach a:active{
+	color: #649dd7;
+}
+span.coin{
+	color: #ffa415;
+	cursor: default;
+	width: 65px
+}
+span.coinVal{
+
+}
+.madTeamLogo{
+	position: absolute;
+  	top: 520px;
+  	width: 295px;
+  	height: 160px;
+}
+.madTeamLogo img{
+	width: 125px;
+	height: 38px;
+	display: block;
+	margin: 50px auto;
+}
+
+/*底部*/
+.footer{
+	height: 55px;
+  	margin-top: 15px;
+  	background-color: #fff;
+}
+.footer li.friendSite{
+	width: 320px;
+	height: 55px;
+	background: url(../img/icon.png) no-repeat 0px -102px;
+}
+
+
+/*报错弹窗*/
+.errorDialog-title{
+	color: #888888;
+    margin-left: 40px;
+    padding-top: 48px;
+    padding-bottom: 20px;
+}
+.errorDialog-textarea{
+	margin-left: 40px;
+    height: 180px;
+    width: 620px;
+    background-color: #eeeeee;
+    border-color: #dddddd;
+    padding: 10px;
+    font-family: "Microsoft Yahei";
+    color: #555;
+    resize: none;
+}
+.errorDialog-textarea:focus{
+	outline: none;
+}
+.errorDialog-submit{
+	margin-left: 496px;
+    width: 185px;
+    height: 40px;
+    text-align: center;
+    background-color: #ffa415;
+    color: #fff;
+    line-height: 40px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+.doubiAddTen{
+	position: absolute;
+    width: 100px;
+    color: #666;
+    left: 50px;
+    top: 0px;
+    opacity: 1 ;
+    transition: all 0.7s ease-in ;
+    -ms-transition: all .7s ease-in ;
+    -moz-transition: all .7s ease-in ;
+    -webkit-transition: all .7s ease-in ;
+}
+.signIn.hadSignIn{
+	background-color: #a6b8c0;
+}
+
+/*提取码弹窗*/
+.tiqimaWrap{
+	height: 35px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	line-height: 35px;
+	color: #888888;
+}
+.tiqumaInput{
+	width: 85px;
+    height: 33px;
+    margin-left: 14px;
+    border: 1px solid #ddd;
+    padding-left: 15px;
+    font-size: 18px;
+    color: #777;
+    letter-spacing: 5px;
+}
+.tiquma-submit{
+	width: 185px;
+    height: 40px;
+    background-color: #ffa415;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    margin: 0px auto;
+    margin-bottom: 35px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.checkboxInTaici{
+  vertical-align: top;
+  position: relative;
+  top: 15px;
+  margin-right: 2px;
+}
+.icon-inside{
+  background-color: #9db1c1;
+  color: #fff;
+  position: relative;
+  top: -1px;
+}
+.taici-title{
+  padding-top: 20px;
+  padding-bottom: 5px;
+  position: relative;
+  top: -4px;
+  width: 770px;
+}
+.taici-title a.resultNameTaici{
+  color: #222;
+}
+.taici-title a.resultNameTaici:hover{
+  color: #649dd7;
+}
+.resultNameTaici{
+  margin-left: 3px;
+}
+.taici-result{
+  height: 25px;
+  line-height: 25px;
+  margin-left: 25px;
+  color: #888;
+}
+.each-taici{
+  padding-bottom: 20px;
+  border-bottom: 1px dashed #d3dce0;
+  width: 770px;
+}

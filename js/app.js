@@ -38,23 +38,53 @@ $('.search_tabs li').hover(function(event){
 		//为NCOP且没权限, 权限判断
 		if ( true ){
 			var $tipDom = $('<a class="lv2 hoverTip" style="position: relative;top: -50px;display:none;">需要注册</a>')
-			.insertAfter( $tar ).show('fast') ;
+			.insertAfter( $tar ).show() ;
+		}
+	}else if( $tar.text() === '台词' ){
+		//为抠图且没权限, 权限判断
+		if ( true ){
+			var $tipDom = $('<a class="lv2 hoverTip" style="position: relative;top: -50px;display:none;">需要注册</a>')
+			.insertAfter( $tar ).show() ;
+		}
+	}else if( $tar.text() === 'Gal OP' ){
+		//为抠图且没权限, 权限判断
+		if ( true ){
+			var $tipDom = $('<a class="lv2 hoverTip" style="position: relative;top: -50px;display:none;">需要注册</a>')
+			.insertAfter( $tar ).show() ;
+		}
+	}else if( $tar.text() === 'MAD合集' ){
+		//为抠图且没权限, 权限判断
+		if ( true ){
+			var $tipDom = $('<a class="lv2 hoverTip" style="position: relative;top: -50px;display:none;">需要注册</a>')
+			.insertAfter( $tar ).show() ;
 		}
 	}else if( $tar.text() === '抠图' ){
 		//为抠图且没权限, 权限判断
 		if ( true ){
 			var $tipDom = $('<a class="lv3 hoverTip" style="position: relative;top: -50px;display:none;">1000逗币解锁</a>')
-			.insertAfter( $tar ).show('fast') ;
+			.insertAfter( $tar ).show() ;
+		}
+	}else if( $tar.text() === 'GMV素材' ){
+		//为抠图且没权限, 权限判断
+		if ( true ){
+			var $tipDom = $('<a class="lv3 hoverTip" style="position: relative;top: -50px;display:none;">1000逗币解锁</a>')
+			.insertAfter( $tar ).show() ;
+		}
+	}else if( $tar.text() === '稀有素材' ){
+		//为抠图且没权限, 权限判断
+		if ( true ){
+			var $tipDom = $('<a class="lv3 hoverTip" style="position: relative;top: -50px;display:none;">1000逗币解锁</a>')
+			.insertAfter( $tar ).show() ;
 		}
 	}else if( $tar.text() === '镜头索引' ){
 		//为镜头索引且没权限, 权限判断
 		if ( true ){
 			var $tipDom = $('<a class="lv4 hoverTip" style="position: relative;top: -50px;display:none;">需要提交申请</a>')
-			.insertAfter( $tar ).show('fast') ;
+			.insertAfter( $tar ).show() ;
 		}
 	}
 },function(){
-	$('a.hoverTip').slideDown('fast').remove() ;
+	$('a.hoverTip').remove() ;
 });
 
 

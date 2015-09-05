@@ -103,10 +103,10 @@ a.signIn{
 	padding-left: 20px;
 }
 .search_tabs{
-	width: 792px;
-  	height: 25px;
-  	position: relative;
-  	left: -0px;
+	width: 812px;
+    height: 25px;
+    position: relative;
+    left: -20px;
 }
 .search_tabs li{
 	float: left;
@@ -116,7 +116,7 @@ a.signIn{
   	width: 87px;
   	border-left: 1px solid #FFF;
   	text-align: center;
-  	width: 78px;
+  	width: 80px;
 }
 .search_tabs li a{
 	color: #fff;

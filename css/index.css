@@ -1,5 +1,8 @@
 @charset "utf-8";
 
+html,body{
+  background: url(../img/BG.png) repeat ;
+}
 /*头部*/
 .header{
 	height: 42px;
@@ -399,4 +402,10 @@ span.coinVal{
   padding-bottom: 20px;
   border-bottom: 1px dashed #d3dce0;
   width: 770px;
+}
+.user_Info .loginIn,.user_Info .register{
+  padding-top: 23px;
+  padding-left: 4px;
+  padding-right: 8px;
+  display: inline-block;
 }
